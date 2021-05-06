@@ -30,4 +30,9 @@ devtools::test()
 # set up git and github ---------------------------------------------------
 
 usethis::use_git()
+usethis::use_github()
+usethis::use_github_actions()
 
+# documentation  ----------------------------------------------------------
+
+usethis::use_readme_rmd()
