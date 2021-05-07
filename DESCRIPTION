@@ -17,3 +17,11 @@ Suggests:
 Config/testthat/edition: 3
 URL: https://github.com/aammd/netwerk
 BugReports: https://github.com/aammd/netwerk/issues
+Imports: 
+    netwerq (>= 0.0.0.9000),
+    assertthat,
+    magrittr
+Remotes: 
+    bios2/netwerq
+Depends: 
+    R (>= 2.10)
