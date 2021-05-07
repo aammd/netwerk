@@ -36,3 +36,25 @@ usethis::use_github_actions()
 # documentation  ----------------------------------------------------------
 
 usethis::use_readme_rmd()
+
+
+# adding ohter packages ---------------------------------------------------
+
+usethis::use_package("assertthat")
+
+
+usethis::use_package("magrittr")
+
+usethis::use_dev_package("netwerq")
+
+
+# add some new functions --------------------------------------------------
+
+usethis::use_r("pipe_fn")
+
+
+# using data --------------------------------------------------------------
+
+usethis::use_data_raw("pedro_data")
+
+usethis::use_r("pedro_data")
